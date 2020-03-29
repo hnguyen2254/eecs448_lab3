@@ -5,15 +5,37 @@
             {
                 background-image: url(/eecs448_lab3/bigcrabs.PNG);
             }
+            p
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+                display: flex;
+                margin-top: 200px; 
+                margin-right: 200px;
+                justify-content: center;
+                
+            }
             #c1
             {
-            display: flex; 
-            justify-content: center;
+                display: flex; 
+                justify-content: center;
+                margin-left: 200px;
+            }
+            .flex-container 
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .flex-container > div 
+            {
+                text-align: center;
+                line-height: 50px;
+                font-size: 30px;
             }
         </style>
     </head>
     <body>
-        <div class="container" id="c1">
+        <div class="flex-container">
             <a href="/eecs448_lab3/exercise1/exercise1.html">
                 <button>
                     <Label>Password Verifier</Label>
@@ -40,7 +62,20 @@
                     <Label>Color Manipulator</Label>
                 </button>
             </a>
-            <br>
         </div>
+
+        <div class="flex-container">
+            <p>while you're here check these bops out:</p>
+        </div>
+        
+        <iframe src="https://open.spotify.com/embed/track/4BGZF4oLbTL0pWm7C18pbv" width="300" 
+        height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        <iframe src="https://open.spotify.com/embed/track/7uIaBPSTlBaAQr1asfZ3B4" width="300"
+            height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        <iframe src="https://open.spotify.com/embed/track/3HTbI3yUJQw3fP0Po8qLcD" width="300"
+        height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        
     </body>
 </html>
