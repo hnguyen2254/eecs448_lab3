@@ -1,0 +1,54 @@
+body
+{
+    background-color: cornflowerblue;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+p
+{
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+}
+p.hype1
+{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+#cake
+{
+    display: flex;
+    justify-content: right;
+}
+
+#cake:hover
+{
+    background-image: url(sailboat.jpg);
+}
+
+#formatYT
+{
+    float:left;
+}
+
+.flex-container 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container > div 
+{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+
